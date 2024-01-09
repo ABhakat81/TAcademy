@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+/*start of nav bar*/
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #333;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    background-color: #333;
+}
+
+.logo img {
+    max-height: 50px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+nav a:hover{
+    color: #cffd04;
+}
+.login a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px 20px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login a:hover {
+    background-color: #fff;
+    color: #333;
+}
+/* end of nav bar */
+
+
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background: #21a138;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 8px;
+}
+
+section.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px;
+}
+
+.course {
+    max-width: 300px;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.course:hover {
+    transform: scale(1.05);
+}
+
+.course img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.course h2 {
+    margin: 0;
+}
+
+.course p {
+    color: #555;
+}
+
+.course a {
+    display: block;
+    margin-top: 15px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.column{
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+.row::after{
+    content: "";
+  clear: both;
+  display: table;
+}
+.course a:hover {
+    background-color: #555;
+}
